@@ -17,7 +17,7 @@ passport.use(
     {
       clientID: process.env.GITHUB_CLIENT_ID,
       clientSecret: process.env.GITHUB_CLIENT_SECRET,
-      callbackURL: "/api/auth/github/callback",
+      callbackURL: "https://repoit-github.onrender.com/api/auth/github/callback",
     },
     async function (accessToken, refreshToken, profile, done) {
       const user = await User.findOne({ username: profile.username });
