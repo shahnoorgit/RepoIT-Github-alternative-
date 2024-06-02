@@ -2,6 +2,8 @@
 url=>https://repoit-github.onrender.com
 RepoIT
 
+![Project Screenshot](project.png)
+
 A feature-rich alternative to GitHub with seamless authentication, powerful search capabilities, and user interactions.
 
 Description:
